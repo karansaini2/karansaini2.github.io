@@ -8,6 +8,7 @@ body {
   /* background-image: url(../IMAGES/4.JPG); */
   background-image: url("/IMAGES/1.jpg");
   background-blend-mode: darken;
+  background-size: contain;
 }
 
 h1 {
@@ -187,13 +188,13 @@ section.education {
 
 .links {
   height: 4vh;
+  border-radius: 12px outset;
 }
 
 .links img {
   margin: 5px 10px;
-  /* padding: 5pxpx; */
-  height: 100px;
-  width: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .links img:hover {
