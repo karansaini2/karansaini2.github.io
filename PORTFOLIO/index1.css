@@ -1,0 +1,30 @@
+#navbar {
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 19vh;
+}
+#logo {
+  margin: 5px;
+}
+
+#navbar ul {
+  font-size: 18px;
+}
+
+#home {
+  height: 372px;
+}
+
+#home p {
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+section.education {
+  height: 50vh;
+  background-size: initial;
+}
+
+#sign {
+}
