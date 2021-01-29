@@ -88,7 +88,7 @@ h1 {
 .headings {
   font-family: "Averia Sans Libre", cursive;
   font-size: 2rem;
-  color: rgb(218 15 243);
+  color: rgb(175 255 46);
 }
 
 #home p {
@@ -116,7 +116,6 @@ h1 {
   align-items: center;
   justify-content: center;
   width: 95%;
-  max-width: 800px;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
@@ -184,6 +183,7 @@ section.education {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  list-style: none;
 }
 
 .links {
