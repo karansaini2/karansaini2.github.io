@@ -135,22 +135,24 @@ h1 {
 
 /* ANCHOR Education */
 section.education {
-  height: 70vh;
+  height: 110vh;
   background-blend-mode: darken;
   background-size: cover;
 }
-.education {
-  height: 50vh;
+#education {
+  height: 80vh;
   background-image: url(/IMAGES/3.JPG);
   background-position: left;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
-.education h1 {
+#education h1 {
   color: white;
   font-family: "Pacifico", cursive;
 }
 #client {
+  height: 50vh;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -161,7 +163,7 @@ section.education {
 }
 
 /* socialmedia */
-.socialmedia {
+#socialmedia {
   background-image: url(/IMAGES/4.JPG);
   background-repeat: norepeat center center/cover;
   background-size: cover;
@@ -169,7 +171,7 @@ section.education {
   z-index: -1;
 }
 
-.socialmedia h1 {
+#socialmedia h1 {
   font-family: "Averia Sans Libre", cursive;
   color: #d5ff2b;
 }
@@ -201,3 +203,5 @@ section.education {
   transform: scale(1.1);
   box-shadow: 2px 2px 25px rgb(223, 245, 27);
 }
+
+
