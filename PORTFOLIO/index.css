@@ -73,7 +73,9 @@ h1 {
   height: 400px;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
+
 #home::before {
   font-family: "Averia Sans Libre", cursive;
   content: "";
@@ -137,6 +139,7 @@ h1 {
 section.education {
   height: 110vh;
   background-blend-mode: darken;
+  overflow: hidden;
   background-size: cover;
 }
 #education {
